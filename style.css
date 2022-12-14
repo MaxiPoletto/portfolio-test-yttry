@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* NAVEGADOR */
+nav{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f8075796, #bc4e9d9a),url("./img/portada.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2em 2em 0 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: overline;
+}
+li{
+    list-style: none;
+    padding:0 1em;
+}
+.contenedornav{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.contenedornav h1{
+    font-size: 3em;
+}
+.contenedornav h2{
+    padding-top: 1em;
+}
+/* MENU */
+/* -------------------1--------------------- */
+main{
+    padding: 60px 0;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.contenedor{
+    padding: 60px 0;
+}
+.titulo{
+    font-size: 1.5em;
+    color: rgb(113, 35, 187);
+}
+
+.divisor{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.divisor-textos{
+    margin: auto;
+    width: 48%;
+}
+.divisor-textos>p{
+    padding: 1em;
+}
+.numero{
+    background-color: rgb(113, 35, 187);
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+}
+.imagen1{
+    width: 50%;
+}
+
+
+/* ------------------- 2 --------------------- */
+
+.divisorImagenes{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+    width: 100%;
+}
+.divisorImagenes1{
+    margin: 10px;
+    width: 20%;
+}
+.oculta{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.cuadros{
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    margin: 5px 5px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 50%);
+}
+.cuadros:hover{
+    background-color: #bc4e9d81;
+    border-radius: 10%;
+}
+
+/* ------------------- 3 --------------------- */
+.organizador{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 250px;
+}
+.organizador-tj1{
+    background-color: rgb(113, 35, 187);;
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.tj1{
+    width: 20%;
+    height: 60%;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid white;
+}
+.organizador-tj1-textos{
+    width: 70%;
+    margin:auto;
+    color: white;
+
+}
+
+/* ------------------- 4 --------------------- */
+.contenedor-cont{
+    display: flex;
+}
+.servicios{
+    width: 100%;
+    padding: 1em;
+}
+.servicios-img{
+    width: 80%;
+    height: 200px;
+    margin-bottom: 2em;
+}
+/* ------------------- 5 --------------------- */
+footer{
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+}
+.pie{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.pie>div{
+    padding: 5em 2em;
+}
+.pie>div>h3{
+    font-size: 1em;
+    padding: 0.5em;
+    border-bottom:2px solid #bc4e9c;
+}
+.pie>div>p{
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+.pie h3{
+    font-size: 2em;
+    padding-bottom: 1em;
+}
